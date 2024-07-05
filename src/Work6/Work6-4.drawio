@@ -1,0 +1,283 @@
+<mxfile host="app.diagrams.net" modified="2024-07-01T10:10:56.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SHU_VMT3emhL-pRLwu9i" version="24.6.4" type="device" pages="2">
+  <diagram name="ページ1" id="aIwpFEQqGn_vJWtlsd2o">
+    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkOa2pSB_m3dujSVZVAh-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZeUPHw5i1cNKLpDfQq0-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;プレイヤー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZeUPHw5i1cNKLpDfQq0-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;テーブル&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZeUPHw5i1cNKLpDfQq0-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;進行役&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZeUPHw5i1cNKLpDfQq0-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;手札&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-3" target="eZeUPHw5i1cNKLpDfQq0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-6" value="④引いたカードを加える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="185" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-8" value="⑤同じ数のカードを探す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="230" as="sourcePoint" />
+            <mxPoint x="270" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-11" value="⑥[同じ数のカードがあった場合]&lt;div&gt;カードを捨てる&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤーの手札&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="sourcePoint" />
+            <mxPoint x="270" y="103" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-15" value="①スタートする人を決める" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-16" value="③カードを1枚引く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-25" value="⑧[手札が0枚になった場合]&lt;div&gt;上がりを宣言&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="60" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-29" value="②持っている手札を参照する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="103" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-32" value="⑦手札の残り枚数を数える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4vhTgYhnhPiJD-_flhF-1" value="⑨[最後の一人になった場合]&lt;div&gt;敗北を宣告&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="103" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XMQJdJLvWNHx52S-MuKj" name="ページ2">
+    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-5" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="610" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-9" value="手札クラス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="30" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-12" value="他のプレイヤーからカードを受け取り、手札に加える。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="159" y="45" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-2" value="①カードを加える" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="5" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-3" value="②カードを引く" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="5" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-4" value="③同じ枚数のカードを探す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry y="135" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-18" value="同じ数のカードを見つけてプレイヤークラスに伝える。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="164" y="130" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-19" value="残りの手札枚数を数えてプレイヤークラスに伝える。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="164" y="170" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="610" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="610" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-15" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="130" as="sourcePoint" />
+            <mxPoint x="610" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.852;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="170.0000000000001" as="sourcePoint" />
+            <mxPoint x="610" y="171.05000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-28" value="④枚数を数える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-29" value="他のプレイヤーにカードを渡す。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry x="164" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mNidkF_pmGCWFMKnNkzL-5" target="mNidkF_pmGCWFMKnNkzL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-20" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-21" value="進行役クラス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-20">
+          <mxGeometry x="20" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-22" value="上がった人をゲームから除外する。最後の一人になったら終了する。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-20">
+          <mxGeometry x="150" y="45" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-24" value="①上がりを宣言する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mNidkF_pmGCWFMKnNkzL-20">
+          <mxGeometry x="10" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="mNidkF_pmGCWFMKnNkzL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="39" as="sourcePoint" />
+            <mxPoint x="610" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNidkF_pmGCWFMKnNkzL-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mNidkF_pmGCWFMKnNkzL-20" target="mNidkF_pmGCWFMKnNkzL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="610" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-2" value="プレイヤークラス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="10" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-3" value="カードを受け取り、手札に加える。同じ数のカードは捨てる。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="150" y="45" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.328;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="L8lyZFpUuqGlU6GYID33-1" target="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129.99999999999994" y="150.00000000000006" as="sourcePoint" />
+            <mxPoint x="128.17000000000002" y="-3.8999999999999915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-5" value="①カードを配る" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="10" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-6" value="②順番を指名する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="10" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-7" value="③手札を出す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="10" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-8" value="隣のプレイヤーからカードを一枚引いて手札に加える。同じ数のカードは捨てる。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="150" y="80" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-9" value="自分のカードを相手のプレイヤーに出してカードを引かせる。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry x="150" y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-1" target="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-1" target="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-12" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-1" target="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-1" target="L8lyZFpUuqGlU6GYID33-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="390" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-15" value="カードクラス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-14">
+          <mxGeometry x="20" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-16" value="特になし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-14">
+          <mxGeometry x="160" y="45" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-17" value="特になし" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-14">
+          <mxGeometry x="10" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="L8lyZFpUuqGlU6GYID33-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="39" as="sourcePoint" />
+            <mxPoint x="610" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-14" target="L8lyZFpUuqGlU6GYID33-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="450" y="530" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-20" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="710" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-21" value="テーブルクラス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-20">
+          <mxGeometry x="15" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-22" value="テーブルにカードが捨てられる。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-20">
+          <mxGeometry x="160" y="45" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-23" value="①カードを捨てる" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="L8lyZFpUuqGlU6GYID33-20">
+          <mxGeometry x="10" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="L8lyZFpUuqGlU6GYID33-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="39" as="sourcePoint" />
+            <mxPoint x="610" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8lyZFpUuqGlU6GYID33-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8lyZFpUuqGlU6GYID33-20" target="L8lyZFpUuqGlU6GYID33-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="870" as="sourcePoint" />
+            <mxPoint x="450" y="820" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

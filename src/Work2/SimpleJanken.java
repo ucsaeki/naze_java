@@ -35,10 +35,8 @@ public class SimpleJanken {
 
 		//ジャンケンを3回行う
 		for (int cnt = 0; cnt < 3; cnt++) {
-			
-			battleCount++;
-			
-			System.out.println("【" + battleCount +"回戦目】");
+			//ジャンケン回数を表す定数に1加算し、その回数を表示する
+			System.out.println("【" + ++battleCount +"回戦目】");
 			
 			//乱数を格納するための変数を設定
 			double randomNumber = 0;
