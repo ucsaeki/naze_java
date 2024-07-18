@@ -7,11 +7,11 @@ package Work3;
  * 作成日 2024/06/28
  */
 public class Player {
-	//グーを表す定数を静的宣言
+	//グーを表すクラス定数を宣言
 	public static final int STONE_HAND = 0;
-	//チョキを表す定数を静的宣言
+	//チョキを表すクラス定数を宣言
 	public static final int SCISSORS_HAND = 1;
-	//パーを表す定数を静的宣言
+	//パーを表すクラス定数を宣言
 	public static final int PAPER_HAND = 2;
 
 	//プレイヤー名を表すフィールドを宣言
@@ -46,18 +46,25 @@ public class Player {
 		int playerHand = 0;
 		//乱数にかけてプレイヤーの手を決めるための定数を設定
 		final int HAND_SELECT = 3;
+		//グーを表す乱数の範囲を表す定数を設定
+		final int STONE_RANGE = 1;
+		//チョキを表す乱数の範囲を表す定数を設定
+		final int SCISSORS_RANGE = 2;
+		//パーを表す乱数の範囲を表す定数を設定
+		final int PAPER_RANGE = 3;
+		
 		//乱数を格納するための変数に、求めた乱数を代入
 		randomNumber = Math.random() * HAND_SELECT;
 		//乱数が1より小さい場合
-		if (randomNumber < 1) {
+		if (randomNumber < STONE_RANGE) {
 			//プレイヤーの手を表す変数にグーを表す定数を代入
 			playerHand = STONE_HAND;
 			//乱数が2より小さい場合
-		} else if (randomNumber < 2) {
+		} else if (randomNumber < SCISSORS_RANGE) {
 			//プレイヤーの手を表す変数にチョキを表す定数を代入
 			playerHand = SCISSORS_HAND;
-			//それ以外の場合
-		} else if (randomNumber < 3) {
+			//乱数が3より小さい場合
+		} else if (randomNumber < PAPER_RANGE) {
 			//プレイヤーの手を表す変数にパーを表す定数を代入
 			playerHand = PAPER_HAND;
 		}

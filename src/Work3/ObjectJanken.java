@@ -18,11 +18,11 @@ public class ObjectJanken {
 		//審判を表すインスタンスを作成
 		Judge judgeSaito = new Judge();
 		//プレイヤー1を表すインスタンスを作成
-		Player player1Murata = new Player("村田さん");
+		Player playerMurata = new Player("村田さん");
 		//プレイヤー2を表すインスタンスを作成
-		Player player2Yamada = new Player("山田さん");
+		Player playerYamada = new Player("山田さん");
 		//プレイヤー二人でジャンケンを行う。
-		judgeSaito.startJanken(player1Murata, player2Yamada);
+		judgeSaito.startJanken(playerMurata, playerYamada);
 	}
 
 }

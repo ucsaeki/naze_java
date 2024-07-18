@@ -16,7 +16,7 @@ public class Judge {
 	 * 作成者 Y.Saeki
 	 * 作成日 2024/07/01
 	 */
-	public void startJanken(Player player1, Player player2) {
+	public void startJanken(Player firstPlayer, Player secondPlayer) {
 		//ジャンケン開始を表示
 		System.out.println("【ジャンケン開始】\n");
 		//ジャンケンをする回数を表す定数を設定
@@ -26,7 +26,7 @@ public class Judge {
 			//現在何回戦目かを表示
 			System.out.println("【" + ++cnt + "回戦目】");
 			//勝者の情報を持つインスタンスを作成
-			Player winnerPlayer = judgeJanken(player1, player2);
+			Player winnerPlayer = judgeJanken(firstPlayer, secondPlayer);
 			//勝者がいる場合
 			if (winnerPlayer != null) {
 				//勝利したプレイヤー名を表示
@@ -43,10 +43,10 @@ public class Judge {
 		//ジャンケン終了を表示
 		System.out.println("【ジャンケン終了】\n");
 		//最終的な勝者の情報を持つインスタンスを作成
-		Player finalWinner = judgeFinalWinner(player1, player2);
+		Player finalWinner = judgeFinalWinner(firstPlayer, secondPlayer);
 
 		//ジャンケン開始を表示
-		System.out.print(player1.getWinCount() + "対" + player2.getWinCount() + "で");
+		System.out.print(firstPlayer.getWinCount() + "対" + secondPlayer.getWinCount() + "で");
 		//最終的な勝者が存在する場合
 		if (finalWinner != null) {
 			//最終的な勝者の名前を表示
@@ -66,34 +66,34 @@ public class Judge {
 	 * 作成者 Y.Saeki
 	 * 作成日 2024/07/01
 	 */
-	private Player judgeJanken(Player player1, Player player2) {
+	private Player judgeJanken(Player firstPlayer, Player secondPlayer) {
 		//勝者を表す変数を作成し、初期値にnullを代入
 		Player winnerPlayer = null;
 		//プレイヤー1の手を表す変数を設定し、ランダムな手を設定
-		int player1Hand = player1.showHand();
+		int firstPlayerHand = firstPlayer.showHand();
 		//プレイヤー2の手を表す変数を設定し、ランダムな手を設定
-		int player2Hand = player2.showHand();
+		int secondPlayerHand = secondPlayer.showHand();
 		//関数を用いて、プレイヤー1の手を表示
-		printHand(player1Hand);
+		printHand(firstPlayerHand);
 		//繋ぐための文字を表示
 		System.out.print("vs.");
 		//関数を用いて、プレイヤー2の手を表示
-		printHand(player2Hand);
+		printHand(secondPlayerHand);
 		//改行する
 		System.out.print("\n");
 
 		//プレイヤー1が勝利した場合
-		if ((player1Hand == Player.STONE_HAND && player2Hand == Player.SCISSORS_HAND)
-				|| (player1Hand == Player.SCISSORS_HAND && player2Hand == Player.PAPER_HAND)
-				|| (player1Hand == Player.PAPER_HAND && player2Hand == Player.STONE_HAND)) {
+		if ((firstPlayerHand == Player.STONE_HAND && secondPlayerHand == Player.SCISSORS_HAND)
+				|| (firstPlayerHand == Player.SCISSORS_HAND && secondPlayerHand == Player.PAPER_HAND)
+				|| (firstPlayerHand == Player.PAPER_HAND && secondPlayerHand == Player.STONE_HAND)) {
 			//勝者のインスタンスにプレイヤー1を代入
-			winnerPlayer = player1;
+			winnerPlayer = firstPlayer;
 			//プレイヤー2が勝利した場合
-		} else if ((player2Hand == Player.STONE_HAND && player1Hand == Player.SCISSORS_HAND)
-				|| (player2Hand == Player.SCISSORS_HAND && player1Hand == Player.PAPER_HAND)
-				|| (player2Hand == Player.PAPER_HAND && player1Hand == Player.STONE_HAND)) {
+		} else if ((secondPlayerHand == Player.STONE_HAND && firstPlayerHand == Player.SCISSORS_HAND)
+				|| (secondPlayerHand == Player.SCISSORS_HAND && firstPlayerHand == Player.PAPER_HAND)
+				|| (secondPlayerHand == Player.PAPER_HAND && firstPlayerHand == Player.STONE_HAND)) {
 			//勝者のインスタンスにプレイヤー2を代入
-			winnerPlayer = player2;
+			winnerPlayer = secondPlayer;
 		}
 		//勝者のインスタンスを返却する
 		return winnerPlayer;
@@ -107,21 +107,21 @@ public class Judge {
 	 * 作成者 Y.Saeki
 	 * 作成日 2024/07/01
 	 */
-	private Player judgeFinalWinner(Player player1, Player player2) {
+	private Player judgeFinalWinner(Player firstPlayer, Player secondPlayer) {
 		//勝者を表す変数を作成し、初期値にnullを代入
 		Player winnerPlayer = null;
 		//プレイヤー1の勝利数を表す変数を設定し、勝利数を代入
-		int player1WinCount = player1.getWinCount();
+		int firstPlayerWinCount = firstPlayer.getWinCount();
 		//プレイヤー2の勝利数を表す変数を設定し、勝利数を代入
-		int player2WinCount = player2.getWinCount();
+		int secondPlayerWinCount = secondPlayer.getWinCount();
 		//プレイヤー1の方が勝利数が多い場合
-		if (player1WinCount > player2WinCount) {
+		if (firstPlayerWinCount > secondPlayerWinCount) {
 			//勝者を表す変数にプレイヤー1を代入
-			winnerPlayer = player1;
+			winnerPlayer = firstPlayer;
 			//プレイヤー2の方が勝利数が多い場合
-		} else if (player1WinCount < player2WinCount) {
+		} else if (firstPlayerWinCount < secondPlayerWinCount) {
 			//勝者を表す変数にプレイヤー1を代入
-			winnerPlayer = player2;
+			winnerPlayer = secondPlayer;
 		}
 		//勝者を表すインスタンスを返却
 		return winnerPlayer;
