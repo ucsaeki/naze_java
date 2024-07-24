@@ -156,6 +156,7 @@ public class Card {
 			//分岐を終了
 			break;
 		}
+		//スートと数字を表す文字列を返却
 		return stringBuffer.toString();
 		
 	}

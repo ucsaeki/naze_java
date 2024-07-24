@@ -50,7 +50,7 @@ public class FantanRule implements Rule {
 			int leftNextCardNumber =(lookingCardNumber != BESIDE_CARD) ? lookingCardNumber - BESIDE_CARD : Card.CARD_NUMBER;
 			//一つ右の数字を表す変数を設置し、右にいける場合その数字を、いけない場合接続するエースを代入。
 			int rightNextCardNumber = (lookingCardNumber != Card.CARD_NUMBER) ? lookingCardNumber + BESIDE_CARD : ACE_CARD;
-
+			//手札のカードを置ける場所がある場合
 			if ((isThereCard(variableTable, lookingCardSuit, leftNextCardNumber) == true)
 					|| (isThereCard(variableTable, lookingCardSuit, rightNextCardNumber) == true)){
 				//候補のカードを格納する配列に要素数を設定

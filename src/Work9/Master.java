@@ -52,9 +52,11 @@ public class Master {
 		System.out.println("\n【ゲームを開始します】");
 		//次の手番のプレイヤーを求めるために使用する定数を設定
 		final int NEXT_PLAYER = 1;
+		//最後の一人であることを表す定数を設定
+		final int LAST_PLAYER = 1;
 		
 		//プレイヤーの人数を取得し、最後の1名になるまでゲームを進行する
-		for ( int count = 0; joinPlayers.size() > 1; count++) {
+		for ( int count = 0; joinPlayers.size() > LAST_PLAYER; count++) {
 			//手番のプレイヤーを表す変数を設定し、参加者リストとゲームのターム数を用いて代入
 			int playerIndex = count % joinPlayers.size();
 			//次の手番のプレイヤーを表す変数を設定し、参加者リストとゲームのターム数を用いて代入

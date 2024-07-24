@@ -78,8 +78,10 @@ public class Hand {
 		int numberOfCards = handCard.size();
 		//カードを抜く位置を表す変数を設定
 		int posCard = 0;
+		//シャッフルの回数を増やすために使用する定数を設定
+		final int SHUFFLE_NUMBER = 2;
 		//カードをシャッフルする
-		for (int count = 0; count < numberOfCards * 2; count++) {
+		for (int count = 0; count < numberOfCards * SHUFFLE_NUMBER; count++) {
 			//ランダムな位置を設定
 			posCard = (int) (Math.random() * numberOfCards);
 			//設定した位置からカードを一枚抜く

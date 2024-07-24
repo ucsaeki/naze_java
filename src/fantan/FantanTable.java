@@ -87,7 +87,7 @@ public class FantanTable implements Table {
 			//改行する
 			stringBuffer.append("\n");
 		}
-		//七並べテーブルを表す文字列を表示
+		//七並べテーブルを表す文字列を返却
 		return stringBuffer.toString();
 	}
 
