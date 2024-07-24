@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T10:10:56.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SHU_VMT3emhL-pRLwu9i" version="24.6.4" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-23T04:48:06.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="k0p5fDws-WGOfqEQWce2" version="24.7.1" type="device" pages="2">
   <diagram name="ページ1" id="aIwpFEQqGn_vJWtlsd2o">
     <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-5">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-27">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XkOa2pSB_m3dujSVZVAh-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-3">
+        <mxCell id="XkOa2pSB_m3dujSVZVAh-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eZeUPHw5i1cNKLpDfQq0-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;プレイヤー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -25,56 +25,53 @@
         <mxCell id="eZeUPHw5i1cNKLpDfQq0-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;手札&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-3" target="eZeUPHw5i1cNKLpDfQq0-1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-3" target="eZeUPHw5i1cNKLpDfQq0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="270" as="sourcePoint" />
             <mxPoint x="440" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-6" value="④引いたカードを加える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-6" value="④引いたカードを加える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="185" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-8" value="⑤同じ数のカードを探す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-8" value="⑤同じ数のカードを探す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="210" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-2">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="eZeUPHw5i1cNKLpDfQq0-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="230" as="sourcePoint" />
             <mxPoint x="270" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-11" value="⑥[同じ数のカードがあった場合]&lt;div&gt;カードを捨てる&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-11" value="⑥[同じ数のカードがあった場合]&lt;div&gt;カードを捨てる&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤーの手札&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤーの手札&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="190" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-12">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eZeUPHw5i1cNKLpDfQq0-1" target="u9-nPKMHvhA5Z-NuaYr9-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="170" as="sourcePoint" />
             <mxPoint x="270" y="103" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-15" value="①スタートする人を決める" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-15" value="①スタートする人を決める" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="545" y="80" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-16" value="③カードを1枚引く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-16" value="③カードを1枚引く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="220" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-25" value="⑧[手札が0枚になった場合]&lt;div&gt;上がりを宣言&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-25" value="⑧[手札が0枚になった場合]&lt;div&gt;上がりを宣言&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="365" y="60" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;他のプレイヤー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="100" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-29" value="②持っている手札を参照する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-29" value="②持っている手札を参照する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="103" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-32" value="⑦手札の残り枚数を数える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="u9-nPKMHvhA5Z-NuaYr9-32" value="⑦手札の残り枚数を数える" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="230" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="d4vhTgYhnhPiJD-_flhF-1" value="⑨[最後の一人になった場合]&lt;div&gt;敗北を宣告&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="545" y="103" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
