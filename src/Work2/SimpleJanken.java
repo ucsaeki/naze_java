@@ -65,7 +65,7 @@ public class SimpleJanken {
 				//パーの手を表示
 				System.out.print("パー");
 			}
-			
+			//手を比較するための文字列を表示
 			System.out.print(" vs. ");
 
 			//プレイヤー2の手を表す変数を設定
