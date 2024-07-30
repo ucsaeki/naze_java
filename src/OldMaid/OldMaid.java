@@ -47,15 +47,15 @@ public class OldMaid {
 		//進行役のインスタンスを生成
 		Master gameMaster = new Master();
 		//テーブルのインスタンスを生成
-		Table OldMaidTable = new OldMaidTable();
+		Table oldMaidTable = new OldMaidTable();
 		//ルールのインスタンスを生成
 		Rule fantanRule = new OldMaidRule();
 		//プレイヤー村田のインスタンスを生成
-		Player playerMurata = new OldMaidPlayer("村田", OldMaidTable, gameMaster, fantanRule);
+		Player playerMurata = new OldMaidPlayer("村田", oldMaidTable, gameMaster, fantanRule);
 		//プレイヤー山田のインスタンスを生成
-		Player playerYamada = new OldMaidPlayer("山田", OldMaidTable, gameMaster, fantanRule);
+		Player playerYamada = new OldMaidPlayer("山田", oldMaidTable, gameMaster, fantanRule);
 		//プレイヤー斎藤のインスタンスを生成
-		Player playerSaito = new OldMaidPlayer("斎藤", OldMaidTable, gameMaster, fantanRule);
+		Player playerSaito = new OldMaidPlayer("斎藤", oldMaidTable, gameMaster, fantanRule);
 
 		//プレイヤー村田を参加者リストに追加
 		gameMaster.registerPlayer(playerMurata);

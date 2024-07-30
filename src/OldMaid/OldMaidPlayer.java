@@ -32,6 +32,9 @@ public class OldMaidPlayer extends Player {
 		super(playerName, cardTable, myMaster, myRule);
 	}
 
+	//ゲームを離脱したプレイヤーの人数を表すフィールドを宣言
+	public static int playerDropCount = 0;
+
 	/* 
 	 * 関数名 playGame
 	 * 概要 隣の人の手札から一枚引いて、同じ数字のカードを持っていた場合捨てる
@@ -48,17 +51,33 @@ public class OldMaidPlayer extends Player {
 		Card pickedCard = nextHand.pickCard(0);
 		//次の人から引いたカードを表示
 		System.out.println(this + " : " + nextPlayer + "さんから " + pickedCard + " を引きました");
-		//受け取ったカードを手札に加え、同じ数字のカードがあった場合テーブルに置く
-		this.receiveCard(pickedCard);
-		//残りの手札が0枚になった場合
-		if (myHand.getNumberOfCards() == 0) {
-			//勝利を宣言する
-			myMaster.decleareWin(this);
-			//手札が残っている場合
-		} else {
-			//残りの手札を表示
-			System.out.println(" " + "残りの手札は " + myHand + "です");
-		
+
+		//次の手番の人の手札が0枚の場合
+		if (nextHand.getNumberOfCards() == 0) {
+			//次の手番の人の勝利を宣言する
+			myMaster.decleareWin(nextPlayer);
+			//離脱した人数に1加算
+			playerDropCount++;
+		}
+		//ゲーム終了となる離脱人数を表す定数を設定
+		final int FANTAN_FINISH_COUNTER = 2;
+		//プレイヤーが複数人いる場合
+		if (playerDropCount != FANTAN_FINISH_COUNTER) {
+			//受け取ったカードを手札に加え、同じ数字のカードがあった場合テーブルに置く
+			this.receiveCard(pickedCard);
+			
+			//残りの手札が0枚になった場合
+			if (myHand.getNumberOfCards() == 0) {
+				//勝利を宣言する
+				myMaster.decleareWin(this);
+				//離脱した人数に1加算
+				playerDropCount++;
+				//手札が残っている場合
+			} else {
+				//残りの手札を表示
+				System.out.println(this + "：" + "残りの手札は " + myHand + "です");
+
+			}
 		}
 	}
 
@@ -71,17 +90,13 @@ public class OldMaidPlayer extends Player {
 	 * 作成日 2024/07/04
 	 */
 	public Hand showHand() {
-		//手札が一枚の場合
-		if( myHand.getNumberOfCards() == 1) {
-			//勝利を宣言する
-			myMaster.decleareWin(this);
-		}
 		//手札をシャッフルする
 		myHand.shuffleCard();
 		//手札を返却する
 		return myHand;
 
 	}
+
 	/* 
 	 * 関数名 reciveCard
 	 * 概要 カードを手札に加えた際、手札に同じ数字のカードがある場合にテーブルに置く
@@ -103,16 +118,15 @@ public class OldMaidPlayer extends Player {
 			System.out.println(playerName + " : " + sameCards[0] + " " + sameCards[1] + " を捨てました");
 			//同じ数字のカードをテーブルに置く
 			cardTable.putCard(sameCards);
-		//存在しない場合
-		}else {
+			//存在しない場合
+		} else {
 			//受けとったカードを手札の最後尾に追加する
 			myHand.addCard(receivedCard);
 		}
 	}
-	
-	
-	
-	
-	
+
+	public void lastHand() {
+
+	}
 
 }
