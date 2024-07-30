@@ -21,26 +21,32 @@ public class CyclicTactics implements Tactics {
 	public int readTactics() {
 		//手を表す変数を設定
 		int selectedHand = 0;
+		//ジャンケンの手の種類を表す定数を設定
+		final int JANKEN_HANDS = 3;
 		//ジャンケンの回数に1加算
 		jankenCount++;
 		//ジャンケンの回数によって分岐
-		switch (jankenCount % 3) {
+		switch (jankenCount % JANKEN_HANDS) {
 		//一回戦の時
-		case 0:
+		case 1:
 			//手を表す変数にグーを表す定数を代入
 			selectedHand = Player.STONE_HAND;
 			//繰り返しを終了する
 			break;
 		//一回戦の時
-		case 1:
+		case 2:
 			//手を表す変数にチョキを表す定数を代入
 			selectedHand = Player.SCISSORS_HAND;
 			//繰り返しを終了する
 			break;
 		//一回戦の時
-		case 2:
+		case 0:
 			//手を表す変数にパーを表す定数を代入
 			selectedHand = Player.PAPER_HAND;
+			//繰り返しを終了する
+			break;
+		//それ以外の場合
+		default:
 			//繰り返しを終了する
 			break;
 		}

@@ -19,10 +19,11 @@ public class ObjectJanken {
 		//審判を表すインスタンスを作成
 		Judge judgeSaito = new Judge();
 		//プレイヤー1を表すインスタンスを作成
-		Player player1Murata = new MurataEx("村田さん");
+		Murata player1Murata = new Murata("村田さん");
 		//プレイヤー2を表すインスタンスを作成
-		Player player2Yamada = new YamadaEx("山田さん");
+		Yamada player2Yamada = new Yamada("山田さん");
 		//プレイヤー二人でジャンケンを行う。
+		//startJankenメソッドはPlayerクラスを引数に取る関数なので、MurataとYamadaクラスには対応していない
 		judgeSaito.startJanken(player1Murata, player2Yamada);
 	}
 

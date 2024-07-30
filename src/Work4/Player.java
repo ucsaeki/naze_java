@@ -18,7 +18,7 @@ public class Player {
 	private String playerName = "";
 	//プレイヤーの勝利数を表すフィールドを宣言し、初期値として勝利数が無い状態を入力
 	private int winCount = 0;
-	
+
 	/* 
 	 * コンストラクタ名 Player
 	 * 概要 コンストラクタを入力された名前で初期化する
@@ -46,18 +46,24 @@ public class Player {
 		int playerHand = 0;
 		//乱数にかけてプレイヤーの手を決めるための定数を設定
 		final int HAND_SELECT = 3;
+		//乱数でグーの範囲を表す定数を設定
+		final int RANDOM_STONE = 1;
+		//乱数でチョキの範囲を表す定数を設定
+		final int RANDOM_SCISSORS = 2;
+		//乱数でパーの範囲を表す定数を設定
+		final int RANDOM_PAPER = 3;
 		//乱数を格納するための変数に、求めた乱数を代入
 		randomNumber = Math.random() * HAND_SELECT;
 		//乱数が1より小さい場合
-		if (randomNumber < 1) {
+		if (randomNumber < RANDOM_STONE) {
 			//プレイヤーの手を表す変数にグーを表す定数を代入
 			playerHand = STONE_HAND;
 			//乱数が2より小さい場合
-		} else if (randomNumber < 2) {
+		} else if (randomNumber < RANDOM_SCISSORS) {
 			//プレイヤーの手を表す変数にチョキを表す定数を代入
 			playerHand = SCISSORS_HAND;
 			//それ以外の場合
-		} else if (randomNumber < 3) {
+		} else if (randomNumber < RANDOM_PAPER) {
 			//プレイヤーの手を表す変数にパーを表す定数を代入
 			playerHand = PAPER_HAND;
 		}
@@ -93,6 +99,7 @@ public class Player {
 		//勝利数を返却
 		return winCount;
 	}
+
 	/* 
 	 * 関数名 getName
 	 * 概要 プレイヤー名を返却する
